@@ -1,5 +1,5 @@
 # setting1：
-CUDA_VISIBLE_DEVICES=0 python continual_train_MM25_end_new_aug_final_paper.py \
+CUDA_VISIBLE_DEVICES=0 python continual_train.py \
 --data-dir /home/xukunlun/DATA/PRID/ \
 --logs-dir logs/setting1 \
 --setting 1 \
@@ -10,7 +10,7 @@ CUDA_VISIBLE_DEVICES=0 python continual_train_MM25_end_new_aug_final_paper.py \
 --lambda_1 0.8 \
 --lambda_2 0.8 
 # setting2：
-CUDA_VISIBLE_DEVICES=0 python continual_train_MM25_end_new_aug_final_paper.py \
+CUDA_VISIBLE_DEVICES=0 python continual_train.py \
 --data-dir /home/xukunlun/DATA/PRID/ \
 --logs-dir logs/setting2 \
 --setting 2 \
